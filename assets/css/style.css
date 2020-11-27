@@ -340,13 +340,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started {
   font-size: 64px;
   transition: 0.5s;
-  color: #fff;
+  color: rgb(125, 163, 74);
   height: 60px;
 }
 
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: #d43076;
+  color: #8d6334;
 }
 
 @media (min-width: 1024px) {
