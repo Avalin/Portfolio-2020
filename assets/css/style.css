@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #d43076;
+  color: #ffffff;
 }
 
 .nav-menu .drop-down > a:after {
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #d43076;
+  color: #ffffff;
 }
 
 .mobile-nav {
