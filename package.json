@@ -17,6 +17,10 @@
         "express": "^4.17.1",
         "heroku": "^7.47.3"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Avalin/portfolio"
+      },
     "engines": {
       "node": "12.19.0"
     }
