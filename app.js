@@ -11,4 +11,7 @@ router.get("/",function(req,res){
     res.sendFile(__dirname + "/views/" + "index.html");
 });
 
+router.get("/index-dk.html",function(req,res){
+    res.sendFile(__dirname + "/views/" + "index-dk.html");
+});
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
