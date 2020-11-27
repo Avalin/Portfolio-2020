@@ -309,22 +309,24 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  height: 75vh; 
+  background: url("../img/hero-bg.png") top center;
+  background-repeat: repeat;
   padding: 0 15px;
 }
 
 #hero h1 {
+  z-index: 100;
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: rgb(85, 85, 85);
 }
 
 #hero h2 {
-  color: #eee;
+  z-index: 100;
+  color: rgb(160, 160, 160);
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 300;
@@ -1139,8 +1141,40 @@ section {
   background: #dd5a92;
 }
 
+/*--------------------------------------------------------------
+# Added by Avalin
+--------------------------------------------------------------*/
+
 .rounded {
   border-radius: 0.5rem !important;
+}
+
+.sliding-background {
+  background: url("../img/clouds.png");
+  opacity: 0.75;
+  width: 1900px;
+  height: 725px;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;  
+  background-repeat: repeat;
+  background-position: 0 0;
+  animation: slide 500s linear infinite;
+}
+
+/*--------------------------------------------------------------
+# Animations
+--------------------------------------------------------------*/
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+/*use negative width if you want it to flow right to left else and positive for left to right*/
+  to {
+    background-position: -10000px -5000px;
+  }
 }
 
 @-webkit-keyframes animate-loading {
