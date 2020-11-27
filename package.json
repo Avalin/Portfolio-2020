@@ -1,13 +1,24 @@
 {
     "name": "portfolio",
     "version": "1.0.0",
-    "description": "A portfolio for Astrid Avalin Sørensen",
+    "description": "A portfolio for Astrid Avalin Sørensen.",
     "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "example",
+      "heroku"
+    ],
+    "author": "Astrid Avalin",
+    "license": "MIT",
     "dependencies": {
         "express": "^4.17.1",
         "heroku": "^7.47.3"
     },
-    "scripts": {
-        "start": "node app.js"
+    "engines": {
+      "node": "10.x"
     }
-}
+  }
+  
