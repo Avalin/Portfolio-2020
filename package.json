@@ -6,5 +6,8 @@
     "dependencies": {
         "express": "^4.17.1",
         "heroku": "^7.47.3"
+    },
+    "scripts": {
+        "start": "node app.js"
     }
 }
