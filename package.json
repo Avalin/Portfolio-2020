@@ -1,9 +1,10 @@
 {
     "name": "portfolio",
     "version": "1.0.0",
-    "description": "A packaged foo fooer for fooing foos",
-    "main": "index.html",
+    "description": "A portfolio for Astrid Avalin Sørensen",
+    "main": "app.js",
     "dependencies": {
+        "express": "^4.17.1",
         "heroku": "^7.47.3"
     }
 }
