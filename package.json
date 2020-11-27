@@ -1,9 +1,8 @@
 {
-    "name": "foo",
-    "version": "1.2.3",
+    "name": "portfolio",
+    "version": "1.0.0",
     "description": "A packaged foo fooer for fooing foos",
-    "main": "foo.js",
-    "man": "./man/doc.1",
+    "main": "index.html",
     "dependencies": {
         "heroku": "^7.47.3"
     }
