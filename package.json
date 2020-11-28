@@ -1,28 +1,28 @@
 {
-    "name": "portfolio",
-    "version": "1.0.0",
-    "description": "A portfolio for Astrid Avalin Sørensen.",
-    "main": "app.js",
-    "scripts": {
-      "start": "node app.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-      "example",
-      "heroku"
-    ],
-    "author": "Astrid Avalin",
-    "license": "MIT",
-    "dependencies": {
-        "express": "^4.17.1",
-        "heroku": "^7.47.3"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Avalin/portfolio"
-      },
-    "engines": {
-      "node": "12.19.0"
-    }
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A portfolio for Astrid Avalin Sørensen.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "Astrid Avalin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
+    "heroku": "^7.47.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Avalin/portfolio"
+  },
+  "engines": {
+    "node": "12.19.0"
   }
-  
+}
