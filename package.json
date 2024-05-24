@@ -16,7 +16,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-sslify": "^1.2.0",
-    "heroku": "^7.47.3"
+    "heroku": "^7.69.1"
   },
   "repository": {
     "type": "git",
